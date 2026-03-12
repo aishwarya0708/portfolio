@@ -232,6 +232,16 @@ export const themes = {
     heroTagline: "Communications data.\nReal-time pipelines.\nEvery message counts.",
     brandPersonality: "Twilio's event-driven architecture requires pipelines that handle high-volume, real-time messaging data reliably. That's my comfort zone.",
   },
+  cohere: {
+    companyName: "Cohere",
+    primaryColor: "#ff7759",
+    bgColor: "#0f0e0d",
+    surfaceColor: "#1a1815",
+    textColor: "#f5f0ec",
+    mutedColor: "#5c4a3a",
+    heroTagline: "Language AI.\nNatural pipelines.\nNew nature, new engineering.",
+    brandPersonality: "Cohere's enterprise NLP platform is where language meets production-grade data engineering. I've built with the Cohere application framework — AeroAssist and the Healthcare Analytics Platform both run on Cohere's API. I understand your stack from the inside.",
+  },
 };
 
 // ── Company list for the switcher UI ──────────────────
@@ -259,6 +269,7 @@ export const COMPANY_LIST = [
   { slug: "salesforce",  name: "Salesforce",  color: "#00a1e0" },
   { slug: "twilio",      name: "Twilio",      color: "#f22f46" },
   { slug: "figma",       name: "Figma",       color: "#a259ff" },
+  { slug: "cohere",      name: "Cohere",      color: "#ff7759" },
 ];
 
 export function getThemeFromSlug(slug) {
