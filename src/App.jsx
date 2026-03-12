@@ -371,6 +371,14 @@ function TransformStage({ theme, content }) {
 function ValidateStage({ theme }) {
   const projects = [
     {
+      name: "MedSafe",
+      tag: "LLM Safety · PyTorch · SHAP · Hugging Face · GCP",
+      desc: "LLM safety & fairness evaluation framework for clinical NLP. Benchmarked GPT, BERT, BioBERT on medical QA datasets across multilingual populations. SHAP interpretability, hallucination detection, adversarial robustness evaluation.",
+      status: "LIVE",
+      metric: "Open-source · BioASQ · Safety guardrails · Bias detection",
+      link: "https://github.com/aishwarya0708",
+    },
+    {
       name: "Pipeline Autopilot",
       tag: "MLOps · GCP · LangGraph · pytest",
       desc: "Automated QA & testing platform for ML pipelines. CI/CD failure prediction trained on 100K+ pipeline runs. LangGraph agent for root cause analysis. Deployed on GCP with BigQuery, Vertex AI, Cloud Run.",

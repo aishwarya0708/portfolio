@@ -239,8 +239,8 @@ export const themes = {
     surfaceColor: "#1a1815",
     textColor: "#f5f0ec",
     mutedColor: "#5c4a3a",
-    heroTagline: "Language AI.\nNatural pipelines.\nNew nature, new engineering.",
-    brandPersonality: "Cohere's enterprise NLP platform is where language meets production-grade data engineering. I've built with the Cohere application framework — AeroAssist and the Healthcare Analytics Platform both run on Cohere's API. I understand your stack from the inside.",
+    heroTagline: "Language AI.\nSafety-first pipelines.\nNew nature, new engineering.",
+    brandPersonality: "I've built directly on Cohere's API — AeroAssist and the Healthcare Analytics Platform both run on your stack. Beyond that, my safety research background maps directly to Cohere's mission: LLM safety evaluation, fairness benchmarking, interpretability with SHAP, and guardrails for agentic workflows. MedSafe — my clinical NLP safety framework — is the kind of work your safety research team is doing.",
   },
 };
 
